@@ -1,0 +1,27 @@
+/* Menggunakan Poppins sebagai font utama */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8; /* Warna latar pastel sangat lembut */
+}
+
+/* Style untuk card biodata dengan gradient lembut */
+.bio-card {
+    background: linear-gradient(145deg, #ffffff 0%, #e0e7ff 100%); /* Putih ke Biru Muda Pastel */
+    box-shadow: 0 15px 35px rgba(100, 116, 139, 0.15); /* Shadow halus */
+}
+
+/* Animasi fade-in saat halaman dimuat */
+#app-container {
+    opacity: 0;
+    transition: opacity 1.5s ease-out;
+}
+
+#app-container.loaded {
+    opacity: 1;
+}
+
+/* Style tambahan untuk garis pemisah */
+.divider {
+    height: 1px;
+    background: linear-gradient(to right, #e0e7ff, #94a3b8, #e0e7ff);
+}
