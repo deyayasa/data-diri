@@ -1,4 +1,4 @@
-# Biodata Estetik (Dea Fitri Andina)
+# Biodata Estetik (Deya Dharmayasa)
 
 Ini adalah biodata personal yang dirancang dengan tampilan estetik menggunakan konsep **Glassmorphism**.
 
@@ -20,5 +20,6 @@ Desain ini menggabungkan warna-warna cerah, animasi slide-in yang lembut, efek g
 * **Phosphor Icons** (Untuk ikon)
 
 ## 💡 Cara Menggunakan
+
 
 Cukup klon repositori ini, dan buka file `index.html` di browser Anda.
