@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Estetik • Deya</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://unpkg.com/@phosphor-icons/web@2.1.1/dist/index.umd.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-br from-indigo-300 via-purple-300 to-pink-300 min-h-screen flex items-center justify-center p-4 sm:p-6 font-poppins overflow-x-hidden">
+
+    <div class="bio-wrapper glass-card rounded-3xl p-6 sm:p-10 w-full max-w-4xl shadow-2xl relative animate-fade-in">
+
+        <div class="absolute top-4 right-4 text-3xl opacity-70 animate-float-1">💖</div>
+        <div class="absolute bottom-4 left-4 text-3xl opacity-70 animate-float-2">✨</div>
+
+        <header class="flex flex-col md:flex-row items-center md:items-start gap-8 mb-10 border-b pb-8 border-white/30">
+
+            <div class="relative photo-container">
+                <div class="glow-circle"></div>
+                <img src="style/img/deya.png" 
+                     alt="Foto Profil Deya"
+                     class="w-36 h-36 sm:w-40 sm:h-40 rounded-full object-cover border-4 border-white shadow-xl profile-img hover:scale-[1.02] transition duration-300">
+            </div>
+
+            <div class="text-center md:text-left pt-3">
+                <p class="text-sm font-semibold text-pink-700 tracking-widest uppercase mb-1 slide-in-top">Digital Creator & Explorer</p>
+                <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-3 leading-tight slide-in-top delay-1">
+                    Deya Dharmayasa
+                </h1>
+                <p class="text-gray-700 italic max-w-md slide-in-top delay-2">
+                    “Saya adalah individu yang menyukai dunia digital, penuh rasa ingin tahu,
+                    dan selalu tertarik mempelajari hal baru.”
+                </p>
+            </div>
+        </header>
+
+        <section class="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-10">
+            
+            <div class="info-item bg-white/20 p-4 rounded-xl slide-in-left">
+                <div class="flex items-center gap-4">
+                    <div class="info-icon bg-indigo-500/80">
+                        <i class="ph ph-clock text-white"></i>
+                    </div>
+                    <div>
+                        <p class="info-label text-sm text-gray-700">Umur</p>
+                        <p class="info-value text-lg font-bold text-gray-900">21 Tahun</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-item bg-white/20 p-4 rounded-xl slide-in-right">
+                <div class="flex items-center gap-4">
+                    <div class="info-icon bg-pink-500/80">
+                        <i class="ph ph-calendar-blank text-white"></i>
+                    </div>
+                    <div>
+                        <p class="info-label text-sm text-gray-700">Tempat & Tgl Lahir</p>
+                        <p class="info-value text-lg font-bold text-gray-900">Mataram, 26 Jan 2004</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="info-item bg-white/20 p-4 rounded-xl slide-in-left delay-1">
+                <div class="flex items-center gap-4">
+                    <div class="info-icon bg-purple-500/80">
+                        <i class="ph ph-map-pin text-white"></i>
+                    </div>
+                    <div>
+                        <p class="info-label text-sm text-gray-700">Alamat</p>
+                        <p class="info-value text-lg font-bold text-gray-900">Jl. Tawak-Tawak No. 1, Kota Mataram</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-item bg-white/20 p-4 rounded-xl slide-in-right delay-1">
+                <div class="flex items-center gap-4">
+                    <div class="info-icon bg-green-500/80">
+                        <i class="ph ph-envelope-simple text-white"></i>
+                    </div>
+                    <div>
+                        <p class="info-label text-sm text-gray-700">Email</p>
+                        <p class="info-value text-lg font-bold text-gray-900 break-all">deyayasa26@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-span-1 sm:col-span-2 mt-4 slide-in-bottom">
+                <p class="info-label mb-4 flex items-center gap-2 text-lg font-bold text-pink-700"><i class="ph ph-sparkle"></i> Hobi & Minat</p>
+                <div class="flex flex-wrap gap-3">
+                    <span class="tag bg-indigo-500/90 text-white">Tidut</span>
+                    <span class="tag bg-purple-500/90 text-white">Coding</span>
+                    <span class="tag bg-pink-500/90 text-white">Membaca</span>
+                    <span class="tag bg-green-500/90 text-white">Traveling</span>
+                    <span class="tag bg-yellow-500/90 text-white">Digital Art</span>
+                </div>
+            </div>
+
+        </section>
+
+        <footer class="mt-10 pt-6 border-t border-white/30 text-center slide-in-bottom delay-1">
+            <a href="https://wa.me/6281234567890" target="_blank" class="inline-flex items-center justify-center px-6 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-full shadow-lg transition duration-300 transform hover:scale-[1.05]">
+                <i class="ph ph-whatsapp-logo text-xl mr-2"></i> Kontak WA: 089636255585
+            </a>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
